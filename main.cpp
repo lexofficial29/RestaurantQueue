@@ -113,7 +113,6 @@ int main() {
 
     for (int i = 0; i < orderCount; i++) {
         std::cout<<"Enter data from order "<<i<<" in the format: orderTime durationToComplete"<<std::endl;
-        // randomize order time and duration
         int orderTime, durationToComplete;
         std::cin >> orderTime >> durationToComplete;
         Order order(orderTime, durationToComplete);
