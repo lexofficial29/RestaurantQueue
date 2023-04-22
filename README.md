@@ -15,20 +15,20 @@ there is one). The restaurant closes at the time T.
 
 Using a Queue:
 
-a) (0.5p) Choose a convenient method of storing the orders (arrival time and duration) -
+a) Choose a convenient method of storing the orders (arrival time and duration) -
 e.g. a struct or a class. Read from the keyboard two numbers - N and T - and then the
 N orders.
 
-b) (0.75p) Print all the times at which the queue is empty and our chef can take a
+b) Print all the times at which the queue is empty and our chef can take a
 breather. As an alternative, print these times as intervals. Only print values inside the
 working time of the restaurant (before time T).
 
-c) (0.5p) Print the maximum duration our chef has to work on a single order.
+c) Print the maximum duration our chef has to work on a single order.
 
-d) (0.75p) For each order, print the theoretical completion time (that the client hoped for)
+d) For each order, print the theoretical completion time (that the client hoped for)
 and the actual completion time (when our chef will finally complete the client’s dish).
 
-e) (0.5p) Determine if there are orders that remain incomplete after the closing time of
+e) Determine if there are orders that remain incomplete after the closing time of
 the restaurant OR orders that are completed after the closing time.
 
 # 💻 The Solution
